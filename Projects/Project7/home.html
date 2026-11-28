@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home - Rent A Pet</title>
+	
+	<link rel="stylesheet" href="mystyles.css" type="text/css">
+	
+	<script type="text/javascript" src="myscripts.js"></script>
+</head>
+	
+	
+
+<body  onload="preloadImages()">
+	<header> 
+	<a href="logo.html" onMouseOver="document.logo.src=logo2.src;"
+	onMouseOut="document.logo.src=logo1.src;">
+
+	<img src="images/logo1.png" width="150" height="150"
+	name="logo" alt="logo" class="logoleft"/>
+
+	</a>
+		<img src="images/banner.png" alt="banner" width="600" height="150" class="borderedimage">
+		
+	</header>
+	<section>
+		
+		<nav>
+			<a href="home.html">Home Page</a><br>
+			<a href="aboutus.htm">About Us</a><br>
+			<a href="tributes.htm">Tributes</a><br>
+			<a href="favorites.htm">My Favorites</a><br>
+			<a href="survey.htm">Survey Page</a>
+		
+		</nav>
+		
+		<article>
+			<h1>Welcome to Rent-A-Pet!</h1> 
+			<p class="pheader">If you love to interact with pets like we do, you should enjoy looking around this site.  Take a look at our Pet Profiles and take the opportunity to complete our survey.</p>
+		
+			
+			<div id="thumbs">
+				<img src="images/thumbnails/image1sm.png" alt="A Dog and A Bird" onmouseover="swapImage(0);"  />
+
+				<img src="images/thumbnails/image2sm.png" alt="Two Best Friends" onmouseover="swapImage(1);" />
+
+				<img src="images/thumbnails/image3sm.png" alt="Dog Doing A Trick" onmouseover="swapImage(2);" />
+
+				<img src="images/thumbnails/image4sm.png" alt="Grumpy Cat" onmouseover="swapImage(3);" />
+
+			</div>
+
+
+
+			<div id="image">
+
+				<img id="theImage" src="images/fullsize/image1lg.png" alt="A Dog and A Bird" />
+
+				<h2 id="bottomText">A Dog and A Bird</h2>
+
+			</div>
+			
+			<h3>What Our Customers Have Been Saying</h3>
+			<div class="testimonial-container">
+			<img src="images/BassetHoundSM.jpg" alt="bassethound" width="200" height="199" class="thumbnailleft">
+			<p class="pheader">My name is Bessie Anderson and I currently live in a retirement community that has a prohibition on pets.  I really wanted to have a small dog that I could take out for walks, but I though it was not possible.  Then I heard about Rent A Pet... <a href="tributes.htm">more...</a></p>
+			</div>
+		</article>
+	
+	</section>
+	
+	<footer>
+		<p>Contact Us By Email: <a href="mailto:10875524@uvu.edu">Kylie Bascom</a></p>
+		<p>This web site has been created solely for educational purposes.</p>
+	
+	</footer>
+</body>
+</html>

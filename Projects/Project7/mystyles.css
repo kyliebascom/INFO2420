@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: #ffffff;
+}
+
+@font-face{
+	font-family:'Montserrat';
+	src: local('Montserrat'), url('fonts/MontserratBold.ttf') format('truetype'); 
+}
+
+
+@font-face {
+    font-family: 'Elegance';
+    src: local('Elegance'), url(fonts/elegance.ttf) format('truetype');
+}
+
+
+header {
+	width: 900px;
+	height: 200px;
+	display: flex;
+  	align-items: center;       /* Vertically centers both images */
+  	justify-content: space-between;
+	 gap: 10px;                 /* Space between logo and banner */
+	 padding: 10px 20px;        /* Adjust or set to 0 if you want them edge-to-edge */     
+	 box-sizing: border-box;
+    text-align: center;
+    background-color: #D3C99F;
+    border: 5px solid #4A360B;
+	margin: auto;
+}
+
+section {
+	width: 900px;
+	background-image: url('images/2colback.png');
+	background-repeat: repeat-y;
+	overflow: hidden;
+	margin: auto;
+}
+
+nav {
+	float: left;
+	width: 250px;
+	margin-top: 50px;
+}
+
+article {
+	float: left;
+	width: 650px;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	width: 900px;
+	height: 80px;
+	background-color: #959E60;
+	margin: auto;
+	border: 3px solid #4A360B;
+}
+
+.logoleft{
+	float: left;
+	padding: 5px;
+	border: 3px solid #4A360B;
+}
+
+nav a {
+	border: 6px inset #CCCCCC;
+	background-color: #4A360B;
+	line-height: 250%;
+	font-weight: bold;
+	font-size: 35px;
+	color: #FFFFFF;
+	text-decoration: none;	
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 20px;
+	font-family: Elegance;
+}
+
+nav a:hover {
+	color: #8D744E;
+	border: 2px outset #CCCCCC;
+}
+
+h1{
+	text-align: center;
+    font-size: 75px;
+	font-family: Elegance; 
+    color: #656E2D;
+	margin-bottom: 10px;
+}
+
+p{
+	font-style: Montserrat;
+	color: black;
+	font-size: 100%;
+	text-align: center;
+}
+
+.borderedimage{
+	border: 3px solid #4A360B;
+	padding: 5px;
+}
+
+.pheader{
+	font-style: Montserrat;
+	color: black;
+	font-size: 100%;
+	text-align: center;
+	padding: 10px;
+}
+
+h3{
+	text-align: center;
+	font-family: Elegance; 
+	font-size: 35px;
+    color: black;
+	
+}
+.thumbnailleft{
+	float: left;
+	padding: 0px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border: 3px solid #4A360B;
+
+}
+.testimonial-container {
+  display: flex;
+  align-items: center; /* Vertically centers the text next to the image */
+  gap: 10px;           /* Adds space between the image and the text */
+}
